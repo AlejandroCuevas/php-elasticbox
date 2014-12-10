@@ -28,6 +28,9 @@
 						<th>Nombre</th>
 						<th>Abreviatura</th>
 					</tr>
+					<?php		
+						echo "PRUEBA PHP";
+					?>
 				</thead>
 				<tbody>
 					 
