@@ -32,17 +32,13 @@
 				</thead>
 				<tbody>
 					 <?php
-					 
-					 include 'db_connect.php'; 
-						//$idConn = mysql_connect('54.77.198.79:3306','usuarioprueba','123456');
-						//mysql_select_db('prueba',$idConn);
-						$get = new Connection("db1");
-						//$query = 'SELECT * FROM prueba.verbos';
-						//$res = mysql_query($query, $idConn) or die(mysql_error());
-						$res = $get->query("SELECT * FROM users");
+					 /*mysql.hostinger.es*/
+						$idConn = mysql_connect($mysql_service.address.public:$mysql_service.port,$mysql_service.username,$mysql_service.password);
+						mysql_select_db('prueba',$idConn);
+						$query = 'SELECT * FROM prueba.verbos';
+						$res = mysql_query($query, $idConn) or die(mysql_error());
 						$verbos = array();
-						//while($row = mysql_fetch_row($res)){
-						while($row = $get->fetch($res)){
+						while($row = mysql_fetch_row($res)){
 							echo '<tr>
 									<td>'.$row[0].'</td>
 									<td>'.$row[1].'</td>
