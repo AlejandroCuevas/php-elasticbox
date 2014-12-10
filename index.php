@@ -31,7 +31,7 @@
 				</thead>
 				<tbody>
 					<?php		
-						echo "PRUEBA PHP";
+						echo "PRUEBA PHP 2";
 					 /*mysql.hostinger.es*/
 						//$idConn = mysql_connect("$mysql_service.address.public:$mysql_service.port","$mysql_service.username","$mysql_service.password");
 						//mysql_select_db('prueba',$idConn);
