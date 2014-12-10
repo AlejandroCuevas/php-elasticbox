@@ -24,9 +24,9 @@
 			<table cellpadding="0" cellspacing="0" border="0" class="display" id="verbos">
 				<thead>
 					<tr>
-						<th>id</th>
-						<th>Nombre</th>
-						<th>Abreviatura</th>
+						<th>id </th>
+						<th>Nombre </th>
+						<th>Abreviatura </th>
 					</tr>
 					<?php		
 						echo "PRUEBA PHP";
