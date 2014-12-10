@@ -33,7 +33,7 @@
 				<tbody>
 					 <?php
 					 /*mysql.hostinger.es*/
-						$idConn = mysql_connect('54.154.59.88:3306','usuarioprueba','123456');
+						$idConn = mysql_connect('54.77.198.79:3306','usuarioprueba','123456');
 						mysql_select_db('prueba',$idConn);
 						$query = 'SELECT * FROM prueba.verbos';
 						$res = mysql_query($query, $idConn) or die(mysql_error());
