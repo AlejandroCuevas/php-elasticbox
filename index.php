@@ -2,12 +2,12 @@
 <html>
 	<head>
 		<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
-		<title>Verbos alemanes</title>
+		<title>Estados de EEUU</title>
 	</head>
 	<body id="dt_example">
 		<div id="container">
-			<h1>Estados de EEUU</h1>
-			<table cellpadding="0" cellspacing="0" border="0" class="display" id="estados">
+			<h1>Estados y abreviaturas de EEUU GITHUB</h1>
+			<table>
 				<thead>
 					<tr>
 						<th>id </th>
@@ -18,12 +18,6 @@
 				<tbody>
 					<?php		
 						include 'db_connect.php';
-						print "PRUEBA PHP!! <br>";
-					 /*mysql.hostinger.es*/
-						//$idConn = mysql_connect("$mysql_service.address.public:$mysql_service.port","$mysql_service.username","$mysql_service.password");
-						//mysql_select_db('prueba',$idConn);
-						//$query = 'SELECT * FROM prueba.estados';
-						//$res = mysql_query($query, $idConn) or die(mysql_error());
 						$get = new Connection("db1");
 						$res = $get->query("SELECT * FROM estados");
 						print "Numero de estados: ";
@@ -39,9 +33,6 @@
   						 print "</tr>\n\r";
 						}
 					?>
-
-
-					 
 				</tbody>
 			</table>
 		</div>
