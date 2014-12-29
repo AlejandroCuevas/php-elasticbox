@@ -7,9 +7,7 @@
 	<body id="dt_example">
 		<div id="container">
 			<h1>Estados y abreviaturas de EEUU GITHUB</h1>
-				<?php	
-					print "HOLA ALAA"
-				?>
+			
 			<table cellpadding="0" cellspacing="0" border="0" class="display" id="estados">
 				<thead>
 					<tr>
