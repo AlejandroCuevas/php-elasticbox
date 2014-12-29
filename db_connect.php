@@ -1,5 +1,4 @@
 <?php
-<?php
 class Connection {
 	public $db1 = array(
 		"host" => "$bd.address.public:$bd.port",
