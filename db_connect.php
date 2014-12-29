@@ -1,20 +1,13 @@
 <?php
+<?php
 class Connection {
-	//Add (or remove) as many databases as you would like.  See ReadMe for naming conventions.
 	public $db1 = array(
 		"host" => "$bd.address.public:$bd.port",
 		"user" => "$bd.DATABASE_USERNAME",
 		"pw" => "$bd.DATABASE_PASSWORD",
 		"db_name" => "prueba"
 	);
-	public $db2 = array(
-		"host" => "HOSTNAME",
-		"user" => "USERNAME",
-		"pw" => "PASSWORD",
-		"db_name" => "DATABASE_NAME"
-	);
-	
-	//You don't have to change anything here :)
+
 	public function __construct($cdb){
 		$this->cdb = $cdb;
 	}
